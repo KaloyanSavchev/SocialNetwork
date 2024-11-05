@@ -73,11 +73,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'socialnetworkapp-database',
+        'USER': 'owhyytolpw',
+        'PASSWORD': '$djeodnVvMVYmdPd',
+        'HOST': 'socialnetworkapp-server.postgres.database.azure.com',
+        'PORT': '5432',
     }
 }
 
